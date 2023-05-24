@@ -12,7 +12,7 @@ const ReceiveMemoComponent: React.FC<Props> = (props: Props): JSX.Element => {
   return (
     <div className="m-8 p-4 border border-1">
       <p>子（メモ化あり・props受け取りあり※useCallback使用）</p>
-      <p>カウンター：{counter}</p>
+      <p>子カウンター：{counter}</p>
       <button
         className="border border-1 border-gray-500 px-2 py-1 mr-2"
         onClick={() => {

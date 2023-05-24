@@ -8,14 +8,14 @@ export const NoReceiveNoMemo: React.FC = (): JSX.Element => {
   return (
     <div className="m-8 p-4 border border-1">
       <p>子（メモ化なし・props受け取りなし）</p>
-      <p>カウンター：{counter}</p>
+      <p>子カウンター：{counter}</p>
       <button
         className="border border-1 border-gray-500 px-2 py-1"
         onClick={() => {
           setCounter((prev) => prev + 1);
         }}
       >
-        カウントアップ
+        子カウントアップ
       </button>
     </div>
   );
