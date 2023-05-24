@@ -1,15 +1,15 @@
-# my-next-template-approuter
+# sandbox-next
 
-App Router の Next.js アプリケーションを立ち上げる際のテンプレートプロジェクト
+Next.js の細かい挙動の確認を取った際に残しておくリポジトリ
 
-## FEATURE
+| 内容      | アプリ URL                                  |
+| --------- | ------------------------------------------- |
+| React Dev | [/dev-tool](http://localhost:3000/dev-tool) |
 
-仮置きで下記のパッケージを使用。
+##　 React Developer Tools
 
-- 状態管理ライブラリ：jotai
-- テスティングフレームワーク：Jest
-- CSS フレームワーク：Tailwind CSS
+React Developer Tools による再レンダリング動作をまとめた。
 
-## 🚧 TODO
+### MOTION
 
-- Storybook
+![reactdev](https://github.com/ayakaki/sandbox-next/assets/65984887/ebfa1afc-361c-41f6-a112-656c3fa3a665)
