@@ -6,7 +6,7 @@ Next.js の細かい挙動の確認を取った際に残しておくリポジト
 | --------- | ------------------------------------------- |
 | React Dev | [/dev-tool](http://localhost:3000/dev-tool) |
 
-##　 React Developer Tools
+##　React Developer Tools
 
 React Developer Tools による再レンダリング動作をまとめた。
 
