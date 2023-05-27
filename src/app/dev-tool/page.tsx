@@ -1,4 +1,4 @@
-import { DevToolTemplate } from '@/components/dev-tool/devToolTemplate';
+import { DevToolTemplate } from '@/components/devTool/devToolTemplate';
 import type { NextPage } from 'next';
 
 const DevToolPage: NextPage = (): JSX.Element => {
