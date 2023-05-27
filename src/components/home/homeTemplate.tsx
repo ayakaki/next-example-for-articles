@@ -1,19 +1,27 @@
-import { Counter } from './counter';
-import { UserTodos } from './userTodos';
-import { Suspense } from 'react';
+import Link from 'next/link';
 
 export const HomeTemplate: React.FC = (): JSX.Element => {
   return (
     <div className="">
-      <div className="mb-8">
-        <h2>グローバルカウンター</h2>
-        <Counter />
-      </div>
-      <h2>TODOリスト</h2>
-      <Suspense fallback={<>ローディング中。。</>}>
-        {/* @ts-expect-error Server Component */}
-        <UserTodos />
-      </Suspense>
+      <h1>Home</h1>
+      <ul className="ml-8">
+        <li className="list-disc">
+          <Link href="/dev-tool" className="underline">
+            React Developer Toolsの使用感確認
+          </Link>
+        </li>
+        <li className="list-disc">
+          <Link href="/simple-value-change" className="underline">
+            useEffectフックの第二引数に変数を指定した場合の挙動確認
+          </Link>
+        </li>
+        <li className="list-disc">
+          <Link href="/state-reflexive" className="underline">
+            setStateによるstateの更新についての挙動確認（直接 /
+            コールバック関数）
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 };
